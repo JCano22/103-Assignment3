@@ -1,0 +1,125 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #609966;
+    color: #EDF1D6;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    
+}
+
+/*header*/
+header{
+    margin: 25px;
+}
+h1{
+    letter-spacing: 2px;
+    font-size: 42px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    
+}
+
+
+
+
+/*main*/
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: content-box;
+    margin: 25px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    border: 2px solid #EDF1D6;
+}
+.startBtn{
+    width: 250px;
+    height: 50px;
+    margin: 15px;
+    background-color: #EDF1D6;
+    opacity: .7;
+    font-size: 24px;
+    color: #40513B;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #EDF1D6;
+
+}
+.startBtn:hover{
+    border: 1px solid black;
+    opacity: 1;
+    
+}
+.operation{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    border: 1px solid #EDF1D6;
+}
+.instructions{
+    margin: 25px;
+    font-size: 24px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.op-buttons{
+    width: 90px;
+    height: 90px;
+    margin: 15px;
+    background-color: #EDF1D6;
+    opacity: .7;
+    font-size: 24px;
+    color: #40513B;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #EDF1D6;
+    
+}
+.op-buttons:hover{
+    border: 1px solid black;
+    opacity: 1;
+    
+}
+.finalDiv{
+    margin: 20px;
+    width: 400px;
+    border: 2px solid #EDF1D6;
+    
+}
+.calculo{
+    background-color: #40513B;
+    
+}
+.equation{
+    padding: 20px 25px 5px;
+    
+}
+.result{
+    padding: 5px 25px 20px;
+    font-size: 34px;
+}
+.remain{
+    font-size: 15px;
+}
+.remain2{
+    font-size: 18px;
+}

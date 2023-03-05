@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Jorge's Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">My Super Awesome Calculator</h1>
+        <p class="author">by Jorge Cano</p>
+        
+    </header>
+
+    <main>
+        <div class="start">
+            <p class="instructions">1. Click here to begin: </p>
+            <button class="startBtn" onclick="start()">Start Here!</button>
+        </div>
+        <div class="operation">
+            <p class="instructions">2. Pick an operation to execute: </p>
+            <div id="buttons" class="btnDiv">
+                <button class="op-buttons" onclick="sum(num1, num2)">+</button>
+                <button class="op-buttons" onclick="sub(num1, num2)">-</button>
+                <button class="op-buttons" onclick="mult(num1, num2)">*</button>
+                <button class="op-buttons" onclick="division(num1, num2)">/</button>
+            </div>
+        </div>
+        <div class="finalDiv">
+
+            <div id="calculation" class="calculo">
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+
+
+</body>
+</html>
